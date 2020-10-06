@@ -50,8 +50,8 @@ export class ComparatorComponent implements OnInit, AfterViewInit, OnDestroy {
         this.leftUrl = params['left'] || '';
         this.rightUrl = params['right'] || '';
       } else {
-        this.leftUrl = 'https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel.ism/.mpd';
-        this.rightUrl = 'https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel.ism/.mpd';
+        this.leftUrl = 'https://npc.cdn.7livecloud.io/hls/live/SYD1/master_200.m3u8';
+        this.rightUrl = 'https://npc.cdn.7livecloud.io/hls/live/SYD1/master_1500.m3u8';
       }
     });
 
